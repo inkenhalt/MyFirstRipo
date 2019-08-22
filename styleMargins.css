@@ -1,0 +1,48 @@
+body{
+    background-color: aquamarine;
+}
+h1, p{
+    /* any h1 element in the document */
+    margin-left: 50px;
+}
+div p{
+    /* any p tag inside a div only */
+    margin-left: 100px;
+}
+div{
+    /* for any div */
+    width: 500px;
+    height: 100px;
+    border: 10px solid red;
+}
+#ndiv{
+    margin-top: 50px;
+}
+.right-margin{
+    /* for any element has right-margin as a class */
+    width: 90%;
+    margin-right: 50px;
+}
+.bottom-margin{
+    /* any element has bottom-margin as class */
+    margin-bottom: 50px;
+}
+.margin-one-value{
+    /* any html element has margin-one-value as class */
+    margin: 100px;
+}
+.margin-two-values{
+    /* any element has margin-two-values as a class */
+    /* margin: 200px 50px equals bottom top 200px and right left 50px */
+    margin: 200px 50px;
+}
+.four-values{
+    /* any element has four-values as a class */
+    /* margin: top right bottom left im Uhrzeigersinn */
+    margin: 10px 20px 60px 70px;
+}
+.auto-margin{
+    /* any element has auto-margin as a class */
+    /* to center the element horizontly */
+    margin: auto;
+}
