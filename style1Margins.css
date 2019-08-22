@@ -1,0 +1,17 @@
+.first{
+    margin: auto;
+    margin-top: 75px; 
+    border: 15px dotted rgb(8, 240, 8);
+    width: 500px;
+    height: 300px;
+}
+.inside{
+    margin: 75px 0px 75px 250px;
+    /* margin-right: 0px;
+    margin-left: 250px;
+    margin-top: 75px; */
+    border: solid;
+    width: 50%;
+    height: 150px;
+}
+
