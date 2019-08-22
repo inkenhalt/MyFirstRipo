@@ -1,0 +1,15 @@
+.schwarz{
+    background-color: black
+}
+.rot{
+    background-color: red
+}
+.gold{
+    background-color: gold
+}
+body{
+    background-image:url('./merkel.jpg'); 
+    background-repeat: no-repeat; 
+    background-size: 100%;
+     background-attachment: fixed;
+}
