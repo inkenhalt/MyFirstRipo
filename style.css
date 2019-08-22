@@ -1,0 +1,35 @@
+body{
+    margin: opx;
+}
+
+
+.nav{
+    list-style: none;
+    width: 100%;
+    background-color: #333;
+    padding: 14px 16px 14px 25%;
+    margin: auto;
+}
+.nav li a{
+    /*any links inside li and inside any element has nav class*/
+    text-decoration: none;
+    color: white;
+    padding: 14px 16px 14px 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2vw;
+    
+    
+}
+.nav li{
+    display: inline;
+    padding: 14px 16px 14px 16px;
+}
+.active{
+    background-color: #4CAF50;
+    padding: 14px 16px 14px 16px;
+}
+.nav li a:hover{
+    background-color: white;
+    padding: 14px 16px 14px 16px;
+    color: black;
+}
