@@ -1,0 +1,17 @@
+div{
+    width: 80px;
+    height: 50px;
+    background-color: green;
+    box-shadow: 5px 5px grey;
+    border-radius: 25px;
+    margin: auto;
+    padding: 30px 40px 10px 50px;
+    /* text-decoration: none; */
+    font-size: 30px;
+}
+div:hover{
+    background-color: darkgreen;
+}
+a{
+    text-decoration: none;
+}
