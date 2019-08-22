@@ -1,0 +1,83 @@
+body{
+    /* border: 1px solid; */
+    margin: 0px 0px 0px 0px;
+    
+}
+.h1-Content{
+    text-align: center;
+    font-size: 3vw;
+}
+.h1-left{
+    text-align: center;
+    font-size: 3vw;
+}
+.h1-right{
+    text-align: center;
+    font-size: 3vw;
+}
+.h1-footer{
+    text-align: center;
+    font-size: 3vw;  
+}
+.header{
+    width: 100%;
+    height: 60px;
+    padding: 46px 0px 0px 0px;
+    background-color: aqua;
+    text-align: center;
+}
+.left{
+    width: 20%;
+    height: 600px;
+    background-color: yellowgreen;
+    float: left;
+    display: inline;
+}
+.content{
+    width: 60%;
+    height: 600px;
+    background-color: antiquewhite;
+    display: inline;
+    float: left;
+}
+.right{
+    width: 20%;
+    height: 600px;
+    background-color: brown;
+    float: right;
+    display: inline;
+}
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color: aqua;
+    text-align: center;
+    float: left;
+}
+
+/* this is for header elements */
+
+li a{
+    width: 80%;
+    height: 50px;
+    background-color: green;
+    text-decoration: none;
+    border-radius: 20px 20px 20px 20px;
+}
+
+ul{
+    list-style: none;
+    margin: auto;
+    width: 60%;
+    padding: 0px 0px 0px 0px;
+}
+
+li{
+    display: inline;
+    margin-left: 10px;
+
+}
+li a:hover{
+    background-color: darkgreen;
+}
+
